@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir ~/research
+echo 'System Information:' > ~research/sys_info.txt
+date
+echo $UID
+hostname -I
+hostname
+sudo find /* -perm 777
+
+
