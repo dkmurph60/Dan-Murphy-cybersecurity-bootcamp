@@ -1,9 +1,0 @@
-#!/bin/bash
-
-chmod /etc/shadow -rw------- root root
-
-chmod /etc/ghsdow -rw------- root root
-
-#allow root read/wtie access to /etc/group, all others read accesschmod /etc/group -rw-r--r-- root root
-
-chmod /etc/psswd -rw-r--r-- root root
