@@ -27,7 +27,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 Filebeat allows monitoring of log directories and files
 Metricbeat allows monitoring of metrics from the server systems and services.
 
-https://github.com/dkmurph60/Dan-Murphy-cybersecurity-bootcamp/blob/main/Ansible/install-ELK.txt
 
 
 The configuration details of each machine may be found below.
@@ -66,6 +65,8 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allows for quick deployment which is replicable on any number of machines. 
 
 
+
+
 The playbook implements the following tasks:
 
  - Installs docker.io and python3-pip
@@ -89,6 +90,8 @@ These Beats allow us to collect the following information from each machine:
 
  - Filebeat monitors log files, collects log events and forwards them for indexing.
  - Metricbeat collects metric data from the server it is installed on and forwards them.  Ths allows monitoring of sustem metrics such as CPU usage or memory, as well as data related to services running on the server.
+
+https://github.com/dkmurph60/Dan-Murphy-cybersecurity-bootcamp/blob/main/Ansible/Install_filebeat.txt
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
