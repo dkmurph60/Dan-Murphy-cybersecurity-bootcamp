@@ -24,7 +24,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the file system and system metrics.
-Filebeat allows monitoring of log directories and files
+Filebeat allows monitoring of log directories and files.
 Metricbeat allows monitoring of metrics from the server systems and services.
 
 
