@@ -7,8 +7,7 @@ https://github.com/dkmurph60/Dan-Murphy-cybersecurity-bootcamp/blob/main/Diagram
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  https://github.com/dkmurph60/Dan-Murphy-cybersecurity-bootcamp/blob/main/Ansible/install-ELK.txt
-
+  
 This document contains the following details:
 - Description of the Topology
 - Access Policies
@@ -27,6 +26,9 @@ Load balancing ensures that the application will be highly available, in additio
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the file system and system metrics.
 Filebeat allows monitoring of log directories and files
 Metricbeat allows monitoring of metrics from the server systems and services.
+
+https://github.com/dkmurph60/Dan-Murphy-cybersecurity-bootcamp/blob/main/Ansible/install-ELK.txt
+
 
 The configuration details of each machine may be found below.
 
