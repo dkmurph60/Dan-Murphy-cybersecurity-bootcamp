@@ -74,7 +74,7 @@ The playbook implements the following tasks:
  - Increases virtual memory
  - Downloads and intalls a docker ELK container (sebp/elk:761)
 
-
+https://github.com/dkmurph60/Dan-Murphy-cybersecurity-bootcamp/blob/main/Ansible/install-ELK.txt
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
