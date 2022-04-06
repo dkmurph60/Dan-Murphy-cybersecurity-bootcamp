@@ -93,6 +93,8 @@ These Beats allow us to collect the following information from each machine:
 
 https://github.com/dkmurph60/Dan-Murphy-cybersecurity-bootcamp/blob/main/Ansible/Install_filebeat.txt
 
+https://github.com/dkmurph60/Dan-Murphy-cybersecurity-bootcamp/blob/main/Ansible/metricbeat.txt
+
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
